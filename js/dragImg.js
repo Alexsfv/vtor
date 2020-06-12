@@ -1,0 +1,1 @@
+const images=document.querySelectorAll("img");images.forEach(e=>e.addEventListener("mousedown",function(e){e.preventDefault()},!1));

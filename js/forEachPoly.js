@@ -1,0 +1,1 @@
+"function"!=typeof NodeList.prototype.forEach&&(NodeList.prototype.forEach=Array.prototype.forEach),void 0===Array.prototype.map&&(Array.prototype.map=function(t){for(var r=[],o=0,p=this.length;o<p;o++)r.push(t(this[o]));return r}),void 0===Array.prototype.filter&&(Array.prototype.filter=function(t){for(var r=[],o=0,p=this.length;o<p;o++)t(this[o])&&r.push(this[o]);return r});
